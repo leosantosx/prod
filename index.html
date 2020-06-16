@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página inicial</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/modal.css">
+</head>
+<body>
+    <div class="container">
+        <main class="content">
+            <a href="./cadastrar.html" class="register">Cadastrar um produto</a>
+            <a  href="./lista-produtos.html" class="list">Listar todos produtos</a>
+            <a href="#" class="search">Pesquisar produtos</a>
+        </main>   
+    </div>
+
+
+    <div id="modal" class="hide">
+        <div class="content">
+            <div class="header">
+                <a href="#" class="close">fechar</a>
+            </div>
+            <form action="./search" class="search-city">
+                <label for="search">Produtos</label>
+                <div class="search field">
+                    <input type="text" name="search" placeholder="Pesquise por matrícula">
+                    <button>
+                        <img src="./icones/search.svg" alt="Buscar">
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+<script src="js/modal.js"></script>
+
+</body>
+</html>

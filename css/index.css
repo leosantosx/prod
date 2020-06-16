@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content a{
+    color: var(--primary-color);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.content a::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.content .register::before{
+    background: url(../icones/log-in.svg) no-repeat ;
+}
+
+.content .search::before{
+    background: url(../icones/search.svg) no-repeat ;
+}
+
+.content .list::before{
+    background: url(../icones/list.svg) no-repeat ;
+}
+
+

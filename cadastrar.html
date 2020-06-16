@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap" rel="stylesheet">
+    <title>Cadastre um Produto</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/cadastro.css">
+</head>
+<body>
+    <header class="header-page">
+        <a href="/">Voltar para home</a>
+        <h1>Cadastre um produto</h1>
+    </header>
+        <form class="form-cadastro" action="" method="get">
+            <div class="form">
+                <label for="matricula">Matrícula</label>
+                <input type="number" name="matricula" required min="0">
+
+                <label for="cod">Cód lote</label>
+                <input type="number" name="cod" required min="0">
+
+                <label for="canal">Canal</label>
+                <input type="text" name="canal" required maxlength="8">
+                <button>Cadastrar</button>
+            </div>
+
+        </form>
+    </div>
+    <script src="js/validaForm.js"></script>
+    <script src="js/cadastro.js"></script>
+</body>
+</html>

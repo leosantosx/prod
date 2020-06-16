@@ -1,0 +1,10 @@
+body{
+    font-family: 'Comfortaa', cursive;
+    color: #4d4d4d;
+    background-color: #edf3fa;
+}
+
+:root{
+    --title-color: #053770;
+    --primary-color: #7d8aff;
+}
