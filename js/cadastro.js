@@ -1,8 +1,8 @@
 function cadastraProduct(input){
     const productBody = {
-        matricula: input[0].value,
-        cod: input[1].value,
-        canal: input[2].value
+        matricula: input[0].value.toUpperCase(),
+        cod: input[1].value.toUpperCase(),
+        canal: input[2].value.toUpperCase()
     }
 
     //console.log(productBody)
