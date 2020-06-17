@@ -21,10 +21,10 @@
                 <input type="number" name="matricula" required min="0">
 
                 <label for="cod">Cód lote</label>
-                <input type="text" name="cod" required min="0">
+                <input type="text" name="cod" required min="0" onkeyup="this.value = this.value.toUpperCase();">
 
                 <label for="canal">Canal</label>
-                <input type="text" name="canal" required maxlength="8">
+                <input type="text" name="canal" required maxlength="8" onkeyup="this.value = this.value.toUpperCase();">
                 <button>Cadastrar</button>
             </div>
 

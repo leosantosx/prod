@@ -1,0 +1,45 @@
+header-page h1{
+    font-size: 5px;
+}
+
+.content{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+
+.content ul{
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 1px 3px 10px #b2bdca;
+    color: var(--title-color);
+}
+
+.content li{
+    padding-bottom: 10px;
+}
+
+.delete{
+    background-color: #f72b46;
+    border: 0;
+    height: 55px;
+    width: 200px;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+.hide-button{
+    display: none;
+}
+
+.delete:hover{
+    background-color: #f33b3b;
+    transform: translateY(1px);
+}
