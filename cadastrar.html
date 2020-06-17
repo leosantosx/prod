@@ -15,13 +15,13 @@
         <a href="/">Voltar para home</a>
         <h1>Cadastre um produto</h1>
     </header>
-        <form class="form-cadastro" action="" method="get">
+        <form class="form-cadastro" action="https://api-prodx.000webhostapp.com/api.php" method="POST">
             <div class="form">
                 <label for="matricula">Matrícula</label>
                 <input type="number" name="matricula" required min="0">
 
                 <label for="cod">Cód lote</label>
-                <input type="number" name="cod" required min="0">
+                <input type="text" name="cod" required min="0">
 
                 <label for="canal">Canal</label>
                 <input type="text" name="canal" required maxlength="8">

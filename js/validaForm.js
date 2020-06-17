@@ -1,5 +1,5 @@
-const formInput = document.querySelectorAll("form input")
-const button = document.querySelector("form button")
+const form = document.querySelector("form")
+const formInput = form.querySelectorAll("input")
 
 let tamCampos = [6, 27, 8]
 
@@ -7,7 +7,9 @@ for(let i = 0; i < formInput.length; i++){
     formInput[i].addEventListener("input", () => {
 
         if(validaForm(formInput, tamCampos)){
-            button.click()
+            cadastraProduct(formInput)
+            form.reset()
+            formInput[0].focus()
         }else if (formInput[i].value.length == tamCampos[i]) {
             if(formInput.length <= 3){
                 formInput[i + 1].focus()

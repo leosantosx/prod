@@ -1,9 +1,10 @@
+
 .content{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
-    font-size: 19px;
+    font-size: 12px;
 }
 
 table{
@@ -18,10 +19,19 @@ thead{
 
 th,td{
     text-align:center;
-    padding:10px 0;
+    padding:5px 0;
 }
 
 tbody tr:nth-child(even){
-    background:#efeff1;
+    background:#e6e6ff;
+}
+
+@media(min-width: 900px){
+    .content{
+        font-size: 19px;
+        width: 70vw;
+        margin: 0 auto;
+    }
+    
 }
 
